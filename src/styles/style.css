@@ -1,0 +1,71 @@
+* {
+  font-family: "Arial", "Helvetica", sans-serif
+}
+
+.payment-form {
+  width: 280px;
+  padding: 5px 20px 15px;
+  border-radius: 5px;
+  border: 1px solid #A2A2A2;
+  background-color: #EFEFEF;
+}
+
+h3 {
+  text-align: center;
+  font-size: 15px;
+}
+input {
+  font-size: 14px;
+  border: 1px solid #C2C2C2;
+  width: 240px;
+  display: block;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 5px;
+  margin: 12px auto 0px;
+}
+button {
+  width: 200px;
+  margin: 10px auto 0;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #BFBFFF;
+  color: white;
+  border: 1px solid #C2C2C2;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.expiration {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.expiration input {
+  width: 110px;
+  margin: 0 10px 0;
+  display: inline-block;
+}
+
+img {
+  height: 50px;
+}
+
+.credit-card-logos {
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.error {
+  text-align: center;
+  color: red;
+  margin: 3px 0;
+}
+
+.disabled {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}

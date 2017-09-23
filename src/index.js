@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import App from 'src/components/index'
+import App from './components/App'
 
-ReactDOM.render(App, document.getElementById('payment-app'))
+import './styles/style.css'
+
+ReactDOM.render(<App />, document.getElementById('payment-app'))
