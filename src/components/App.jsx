@@ -99,8 +99,10 @@ class App extends Component {
         delete errors[field]
       }
     })
+    const isCardValid = this.isCardValid()
+    const isDateValid = this.isDateValid()
     if(Object.keys(errors).length === 0 && !dateInvalid && cardType &&
-      this.isCardValid() && this.isDateValid()) {
+      isCardValid && isDateValid) {
       this.submitForm()
     }
   }

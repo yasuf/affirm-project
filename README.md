@@ -23,7 +23,7 @@ UX features include:
 
 Though of implementing:
 -Separating the characters in groups of 4 for VISA and 4-6-5 for American Express, I saw there's an npm package that can be helpful with this, `react-number-format`.
-
+-Validate that the name contains only characters and not numbers
 
 * What would an form submission/API payload of this look like? How would you deal with validation errors that may come from that API response?
 
