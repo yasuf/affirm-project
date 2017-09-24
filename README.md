@@ -1,3 +1,9 @@
+### OSX Setup
+
+* Run `npm install`
+* Run `webpack-dev-server`
+* Run `open dist/index.html`
+
 ### Affirm assignment
 
 * How long did you spend working on the problem? How much time did you spend thinking about the design before writing your code?
