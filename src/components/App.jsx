@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { isEmpty } from 'lodash'
 
 import Spinner from './Spinner'
 import Form from './Form'
