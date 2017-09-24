@@ -92,8 +92,6 @@ class App extends Component {
 
   onSubmit = () => {
     const { name, cardNumber, month, ccv, year, errors, dateInvalid, cardType } = this.state
-    this.validateDate()
-    this.validateCard()
     requiredFields.forEach((field) => {
       if(!this.state[field]) {
         errors[field] = true

@@ -4,7 +4,6 @@ const Form = (props) => {
   const { onNameChange, onCardNumberChange, onCcvChange, onMonthChange, onYearChange, onSubmit,
     errors, cardInvalid, dateInvalid, cardType,
     name, cardNumber, ccv, month, year } = props
-    debugger
   return (
     <div className="payment-form">
       <h3>
