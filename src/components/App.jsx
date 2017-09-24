@@ -80,8 +80,10 @@ class App extends Component {
   }
 
   isCardValid = () => {
-    const { cardType } = this.state
-    if(!cardType) {
+    const { cardType, cardNumber } = this.state
+    if(!cardType ||
+      (cardType === 'visa' && cardNumber.length !== 16) ||
+      (cardType === 'amex' && cardNumber.length !== 15)) {
       this.setState({ cardInvalid: true })
       return false
     } else {
