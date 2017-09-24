@@ -101,6 +101,8 @@ class App extends Component {
         delete errors[field]
       }
     })
+    // had to call these 2 here instead of in the "if" because they don't
+    // execute if one of the first conditions is false and they won't render the errors
     const isCardValid = this.isCardValid()
     const isDateValid = this.isDateValid()
     if(Object.keys(errors).length === 0 && !dateInvalid && cardType &&

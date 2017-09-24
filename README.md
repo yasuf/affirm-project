@@ -1,8 +1,8 @@
 ### OSX Setup
 
-* Run `npm install`
-* Run `webpack-dev-server`
-* Run `open dist/index.html`
+1. Run `npm install`
+1. Run `webpack-dev-server`
+1. Run `open dist/index.html`
 
 ### Affirm assignment
 
