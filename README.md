@@ -13,19 +13,28 @@ I spent around 20 minutes thinking about which libraries to use and have a clear
 * What are the UI/UX usability features you implemented, or thought about implementing? How do they help validate the user input?
 
 Validations, which include:
+
 -Rendering an error message when the user is missing a field
+
 -Limiting the number of characters they can input in different cases depending on the type of card (AmEx, VISA).
+
 -Highlighting the image of the credit card that matches the number they typed.
 
 UX features include:
+
 -Render a spinner after they submittted the form
+
 -Show a success message after the transaction has been completed
 
 Though of implementing:
+
 -Separating the characters in groups of 4 for VISA and 4-6-5 for American Express, I saw there's an npm package that can be helpful with this, `react-number-format`.
+
 -Validate that the name contains only characters and not numbers
 Thought of implementing(Engineering):
+
 -Documenting methods is worth it when they get complex, although this is for future engineers that touch the same code.
+
 -Using SASS or SCSS or another preprocessor, it looked like it was going to be too much tooling for this task
 
 * What would an form submission/API payload of this look like? How would you deal with validation errors that may come from that API response?
